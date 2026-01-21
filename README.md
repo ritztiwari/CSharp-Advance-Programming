@@ -75,6 +75,105 @@ The problems are designed to strengthen understanding of **lambda syntax**, **LI
 
 ---
 
+### 🔹 `regex` branch
+This branch focuses on **Regular Expressions (Regex) in C#**, combined with **OOP concepts and Custom Exception handling**.  
+The problems cover **validation**, **data extraction**, and **real-world input handling** scenarios without relying on LINQ where specified.
+
+---
+
+### 📝 Practice Problems
+
+- User Registration System  
+  Create a user registration system using OOP, Regex, and custom exceptions. Validate phone number, email, and password using regular expressions. Throw a custom exception if validation fails and store only valid users.
+
+- Valid Phone and Email Extraction  
+  Given a list of strings containing mixed content, extract all valid email addresses and valid Indian phone numbers using Regex. Store them in separate lists and display the results. Do not use LINQ.
+
+- Username Validation  
+  Validate a username using Regex with rules such as starting with a letter, allowing only letters, digits, and underscores, and enforcing a specific length range.
+
+- License Plate Number Validation  
+  Validate a license plate number using Regex where the format consists of uppercase letters followed by digits.
+
+- Hex Color Code Validation  
+  Validate hexadecimal color codes using Regex based on standard hex color rules.
+
+- Extract Email Addresses from Text  
+  Extract all valid email addresses from a given block of text using Regex.
+
+- Extract Capitalized Words  
+  Extract all words that start with an uppercase letter from a given sentence using Regex.
+
+- Credit Card Number Validation  
+  Validate credit card numbers using Regex by identifying supported card formats based on starting digits and length.
+
+- Extract Programming Language Names  
+  Extract programming language names from a given text using Regex.
+
+- Extract Currency Values  
+  Extract currency values from text using Regex.
+
+- Social Security Number (SSN) Validation  
+  Validate a Social Security Number using Regex based on its standard format.
+
+---
+
+### 🎯 Learning Outcomes
+- Master **Regex pattern writing and matching**
+- Perform **input validation** using Regex
+- Combine **OOP, Regex, and Custom Exceptions**
+- Extract structured data from unstructured text
+- Build **robust and secure input-handling logic** in C#
+
+---
+
+### 🔹 `nunit` branch
+This branch focuses on **unit testing in C# using NUnit (and MSTest concepts)**. The problems cover **test creation, assertions, exception testing, parameterized tests, setup/teardown, and performance testing**, helping you build reliable and maintainable code.
+
+---
+
+### 📝 Practice Problems
+
+- **Basic Calculator Testing**  
+  Create a `Calculator` class with arithmetic operations and write unit tests for each method, including handling division by zero.
+
+- **Testing String Utility Methods**  
+  Test string-related methods such as reversing a string, checking palindromes, and converting strings to uppercase.
+
+- **Testing List Operations**  
+  Write unit tests to verify adding elements, removing elements, and checking the size of a list.
+
+- **Testing Exception Handling**  
+  Verify that a method throws the correct exception when invalid input (such as division by zero) is provided.
+
+- **Setup and Teardown Testing**  
+  Use setup and teardown mechanisms to initialize and clean up resources like a database connection before and after each test.
+
+- **Parameterized Tests**  
+  Test a method that checks whether a number is even using multiple input values through parameterized test cases.
+
+- **Performance Testing with Timeout**  
+  Ensure that a long-running method fails the test if it exceeds a specified execution time.
+
+- **Banking Transaction Testing**  
+  Test deposit, withdrawal, and balance operations in a bank account system, including insufficient balance scenarios.
+
+- **Password Strength Validator Testing**  
+  Write unit tests to validate password strength rules such as minimum length, uppercase letters, and digits.
+
+---
+
+### 🎯 Learning Outcomes
+
+- Writing **unit tests using NUnit**
+- Using **assertions and test cases**
+- Testing **exceptions and edge cases**
+- Applying **setup and teardown lifecycle methods**
+- Performing **parameterized and performance testing**
+- Improving **code reliability and test-driven thinking**
+
+---
+
 ## 👤 Author
 **Rishabh Kumar Tiwari**
 B-Tech CSE
